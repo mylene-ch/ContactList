@@ -1,5 +1,5 @@
 from tools import verify_email_address, verify_phone_numbers, get_contact_by_name
-from storage_1 import read_contacts, write_contacts
+from storage import read_contacts, write_contacts
 
 
 CONTACT_FILE_PATH = "contacts.json"
